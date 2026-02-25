@@ -1,0 +1,12 @@
+name: Pre commit checks
+
+on:
+  pull_request:
+    branches:
+      - "*"
+
+jobs:
+  precommit-checks:
+    uses: neteye-platform/workflows/.github/workflows/run-precommit-checks.yaml@main
+    permissions:
+      contents: read
