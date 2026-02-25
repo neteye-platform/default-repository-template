@@ -1,10 +1,10 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    ":disableDependencyDashboard",
     "config:recommended",
-    "group:allNonMajor",
     "group:recommended",
-    "security:openssf-scorecard"
+    "group:allNonMajor",
+    "security:openssf-scorecard",
+    ":disableDependencyDashboard"
   ]
 }
