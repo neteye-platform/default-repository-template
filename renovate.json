@@ -1,10 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:recommended",
-    "group:recommended",
-    "group:allNonMajor",
-    "security:openssf-scorecard",
-    ":disableDependencyDashboard"
+    "github>neteye-platform/workflows"
   ]
 }
