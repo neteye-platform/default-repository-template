@@ -7,6 +7,6 @@ on:
 
 jobs:
   precommit-checks:
-    uses: neteye-platform/workflows/workflows/run-precommit-checks.yaml@main
+    uses: neteye-platform/workflows/.github/workflows/run-precommit-checks.yaml@main
     permissions:
       contents: read
