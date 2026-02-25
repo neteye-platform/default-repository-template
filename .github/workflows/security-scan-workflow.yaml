@@ -9,6 +9,6 @@ on:
 
 jobs:
   semgrep-scan:
-    uses: neteye-platform/workflows/.github/workflows/security-scan-workflow.yaml@main
+    uses: neteye-platform/workflows/workflows/security-scan-workflow.yaml@main
     permissions:
       contents: read
