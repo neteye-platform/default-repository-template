@@ -9,4 +9,4 @@ on:
 
 jobs:
   semgrep-scan:
-    uses: neteye-platform/.github/workflows-templates/security-scan-workflow.yaml@main
+    uses: neteye-platform/workflows/.github/workflows/security-scan-workflow.yaml@main
