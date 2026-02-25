@@ -1,0 +1,12 @@
+name: Security Scan
+
+on:
+  schedule:
+    - cron: "0 0 * * *" 
+  pull_request:
+    branches:
+      - "*"
+
+jobs:
+  semgrep-scan:
+    uses: neteye-platform/.github/workflows-templates/security-scan-workflow.yaml@main
