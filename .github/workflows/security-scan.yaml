@@ -9,6 +9,6 @@ on:
 
 jobs:
   security-scan:
-    uses: neteye-platform/repo-commons/.github/workflows/security-scan-workflow.yaml@main
+    uses: neteye-platform/repo-commons/.github/workflows/security-scan.yaml@main
     permissions:
       contents: read
