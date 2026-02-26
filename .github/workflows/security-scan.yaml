@@ -8,7 +8,7 @@ on:
       - "*"
 
 jobs:
-  semgrep-scan:
-    uses: neteye-platform/workflows/.github/workflows/security-scan-workflow.yaml@main
+  security-scan:
+    uses: neteye-platform/repo-commons/.github/workflows/security-scan-workflow.yaml@main
     permissions:
       contents: read
