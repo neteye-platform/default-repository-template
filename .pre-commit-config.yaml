@@ -75,6 +75,6 @@ repos:
       - id: markdownlint_docker
 
   - repo: https://github.com/renovatebot/pre-commit-hooks
-    rev: afa3737352c779377771262f6fbaaf5b4e9fd0fd # frozen: 43.46.6
+    rev: e62d18995ac47e3ebeffc58367a9d51307b9afa7 # frozen: 43.46.7
     hooks:
       - id: renovate-config-validator
