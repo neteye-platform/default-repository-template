@@ -18,7 +18,6 @@ repos:
       - id: check-symlinks
       - id: check-merge-conflict
       - id: detect-private-key
-      - id: no-commit-to-branch
       - id: check-executables-have-shebangs
 
   - repo: https://github.com/pre-commit/pre-commit-hooks
@@ -68,12 +67,12 @@ repos:
   - repo: https://github.com/hadolint/hadolint
     rev: 57e1618d78fd469a92c1e584e8c9313024656623 # frozen: v2.14.0
     hooks:
-      - id: hadolint
+      - id: hadolint-docker
 
   - repo: https://github.com/markdownlint/markdownlint
     rev: 6a63be82e63a96cc8a0ba48abdbed819025ef233 # frozen: v0.15.0
     hooks:
-      - id: markdownlint
+      - id: markdownlint_docker
 
   - repo: https://github.com/renovatebot/pre-commit-hooks
     rev: afa3737352c779377771262f6fbaaf5b4e9fd0fd # frozen: 43.46.6

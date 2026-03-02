@@ -17,10 +17,10 @@ Instead, contact the maintainers privately:
 ## Disclosure Process
 
 1. You privately report the issue to us.
-2. We confirm the vulnerability, assess severity, and begin remediation.
-3. We may request additional information from you to reproduce or understand the
+1. We confirm the vulnerability, assess severity, and begin remediation.
+1. We may request additional information from you to reproduce or understand the
    issue.
-4. Once fixed, we will:
+1. Once fixed, we will:
    - Release a patch version
    - Credit you (if you want)
    - Publish a security advisory
